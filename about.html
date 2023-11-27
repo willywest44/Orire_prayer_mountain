@@ -1,0 +1,101 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300
+    ;400;600;700&display=swap"rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="sub-header">
+         <nav>
+            <a href="index.html"><img src="logo.png" alt="#"></a>
+             <div class="nav-links" id="navlinks">
+                <i class="fa fa-times"onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <!--<li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>-->
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+             </div>
+             <i class="fa-solid fa-bars"onclick="showMenu()"></i>
+         </nav>
+         <h1>About Us</h1>
+
+    </section>
+    <!----------about us content---------->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>ORIRE PRAYER MOUNTAIN</h1>
+                <h2>His Jewel MInistries</h2>
+                <p>Are you looking for somewhere to meet with your God ? if so you are welcome to Orire Prayer Mountain 
+                    A mountain to seek the Lord come and worship and fellowship with us.</p>
+                 <!--a href="" class="hero-btn red btn">EXPLORE NOW</a>-->
+            </div>
+            <div class="about-col">
+                <img src="about.jpg">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!------Footer------->
+<section class="footer">
+    <h1>About Us</h1>
+    <p>
+        <p>ORIRE PRAYER MOUNTAIN was established November 2011, situated at Afeki Opa, off Ife-Ilesha Road, Ile-Ife,Osun state occupies land expanse of about four hectares.
+            It is an upspring of HIS JEWEL MINISTRIES with a clear mandate of catering for those seeking solutions to life complex situation,
+            those going through crisis and christians facing life battles.
+           Salvation of souls (being born again) through confession and forsaken of sinful ways and accepting Jesus Christ as personal Lord and Saviour
+            forms the basis of the mountain's covenant of getting life problems solved by faith through prayer and fasting.
+             God through the years have manifested His ultimate power in delivering the oppressed,healing the sick,giving children to those seeking the fruit of the womb and receiving financial breakthrough/prosperity.
+            We believe nothing is impossible with the God of covenant of mercy and goodness at ORIRE PRAYER MOUNTAIN and so encourage men from all works of life to avail themselves  this glorious opportunity
+             of fulfilling life and ministrial destiny through prayers while keeping eternity in view regardless of  their religious beliefs or denomination.
+             You are cordially welcome !
+          </p>
+    </p>
+    <div class="icons">
+        <a href="https://web.facebook.com/profile.php?id=100084019736462"><i class="fa-brands fa-facebook" style="color: rgb(25, 92, 158)"></i></a>
+        <a href="https://twiter.com/orireprayer"  ><i class="fa-brands fa-twitter"style="color: rgb(52, 152, 219);" target="_blank" role="button"></i></a>
+        <a href="https://instagram.com/orireprayer"  ><i class="fa-brands fa-instagram"style="color: rgb(128, 31, 57);" target="_blank" role="button"></i></a>
+        <a href="https://wa.me/+2347042815912" ><i class="fa-brands fa-whatsapp" style="color: rgb(26, 213, 57);"target="_blank" role="button"></i></a>
+        <a href="https://youtube.com/@orireprayermountain7921"><i class="fa-brands fa-youtube"  style="color: rgb(199, 42, 11);" target="_blank" role="button"></i></a>
+        <a href="mailto:orireprayermountain2021@gmail.com" style="color: hsl(22, 47%, 52%);" target="_blank" role="button"><i class="fa-regular fa-envelope"></i></a>
+        <a href="https://www.stationhead.com/oriremountain" style="color:rgb(42, 13, 13);"><i class="fa-solid fa-microphone-lines"></i></a>
+         
+    </div>
+   <p>Made with <i class="fa-regular fa-heart"></i> by Westways </p>
+</section>
+
+
+
+
+
+
+
+   <!---------Javascript for Toggle Menu ------------>
+    <script>
+        var navLinks = document.getElementById("navlinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+           
+        }
+         function hideMenu(){
+            navLinks.style.visibility = 'hidden'
+            navLinks.style.right = "-270px";
+        }
+    </script>
+</body>
+</html>
